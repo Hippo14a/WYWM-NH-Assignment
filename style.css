@@ -1,0 +1,13 @@
+/*
+    WYWM Web Development Assignment
+    Student: Neil Hipkiss
+    Styling for a web page to show user-selected images
+*/
+
+body, html {
+    background-color: aqua;
+}
+
+h1 {
+    font-size:small;
+    color:aqua;
