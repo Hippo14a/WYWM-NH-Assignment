@@ -9,7 +9,56 @@ body, html {
 }
 
 h1 {
-    font-size:x-large;
+    font-size:xx-large;
     text-align: center;
     color:blue;
 }
+p {
+    font-size:large;
+    color: black;
+    text-align: center;
+}
+
+.top-container {
+    border-style:solid;
+    border-width: 2px;
+    border-color: black;
+    width:95%;
+    justify-content: space-evenly;
+}
+
+#top-left {
+    border-style:solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: yellow;
+    width:30%;
+    float:left;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+#top-middle {
+    border-style:solid;
+    border-width: 2px;
+    border-color: black;
+    background-color:hotpink;
+    width:30%;
+    justify-content: space-between;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#top-right {
+    border-style:solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: greenyellow;
+    width:30%;
+    float:right;
+    justify-content: space-between;
+    margin: 5px;
+}
+
