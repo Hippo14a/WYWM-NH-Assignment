@@ -23,6 +23,11 @@ p {
     text-align: center;
 }
 
+p2{
+    font-size: 300px;
+    text-align: center;
+}
+
 .top-container {
     border-style:solid;
     border-width: 2px;
