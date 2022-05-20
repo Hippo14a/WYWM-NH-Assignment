@@ -2,7 +2,9 @@
     WYWM Web Development Assignment
     Student: Neil Hipkiss
     Styling for a web page to show user-selected images
-    Verified version
+    
+    WIP version
+
 */
 
 body, html {
@@ -14,9 +16,17 @@ h1 {
     text-align: center;
     color:blue;
 }
+
 p {
     font-size:large;
     color: black;
+    text-align: center;
+}
+
+p2 {
+    font-size:large;
+    color: black;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -37,6 +47,8 @@ p {
     width:30%;
     justify-content: space-between;
     margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #top-left {
@@ -55,3 +67,28 @@ p {
     float:right;
 }
 
+.middle-box{
+    border-style:solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    width:30%;
+    justify-content: space-between;
+    margin: 10px
+}
+
+#middle-left {
+    background-color: yellow;
+    float:left;  
+}
+
+#middle-middle {
+    background-color:hotpink;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#middle-right {
+    background-color: greenyellow;
+    float:right;
+}
