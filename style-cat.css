@@ -3,7 +3,9 @@
     Student: Neil Hipkiss
     Styling for a web page to show user-selected images
     
-    WIP version
+    API TEST version
+
+    CAT
 
 */
 
@@ -13,14 +15,12 @@ body, html {
 
 h1 {
     font-size:xx-large;
-    font-family: cursive;
     text-align: center;
     color:blue;
 }
 
 p {
     font-size:large;
-    font-family: cursive;
     color: black;
     text-align: center;
 }
@@ -36,8 +36,9 @@ p2{
     border-color: black;
     border-radius: 15px;
     width:95%;
-    justify-content: space-evenly;
-    margin: 10px;
+    justify-content:center;
+    margin: auto;
+    margin-bottom: 10px;
     background-color: whitesmoke;
 }
 
@@ -46,9 +47,12 @@ p2{
     border-width: 2px;
     border-color: black;
     border-radius: 10px;
-    width:30%;
-    justify-content: space-evenly;
-    margin: 10px;
+    width:90%;
+    background-color: yellow;
+    justify-content:center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .middle-box{
@@ -56,12 +60,12 @@ p2{
     border-width: 2px;
     border-color: black;
     border-radius: 10px;
-    width:90%;
-    justify-content: center;
+    width: 80%;
+    justify-content:center;
     margin: 0 auto;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 15px;
+    margin-left: 10%;
+    padding: 3px;
+    margin-bottom: 10px;
 }
 
 .bottom-container {
@@ -70,8 +74,8 @@ p2{
     border-color: black;
     border-radius: 15px;
     width:95%;
-    justify-content: space-evenly;
-    margin: 10px;
+    justify-content:center;
+    margin: auto;
     background-color: whitesmoke;
 }
 
@@ -80,25 +84,18 @@ p2{
     border-width: 2px;
     border-color: black;
     border-radius: 10px;
-    width:30%;
-    height: 450px;
-    justify-content: space-evenly;
-    margin: 10px
-}
-
-#left {
     background-color: yellow;
-    float:left;  
+    width:90%;
+    height: 450px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-#middle {
-    background-color:hotpink;
-    margin-left: auto;
-    margin-right: auto;
+.cat-breed{
+    font-size:large;
+    color:black;
+    background-color: whitesmoke;
+    text-align: center;
 }
-
-#right {
-    background-color: greenyellow;
-    float:right;
-}
-

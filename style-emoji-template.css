@@ -3,7 +3,7 @@
     Student: Neil Hipkiss
     Styling for a web page to show user-selected images
     
-    WIP version
+    Emoji Template Version
 
 */
 
@@ -13,14 +13,12 @@ body, html {
 
 h1 {
     font-size:xx-large;
-    font-family: cursive;
     text-align: center;
     color:blue;
 }
 
 p {
     font-size:large;
-    font-family: cursive;
     color: black;
     text-align: center;
 }

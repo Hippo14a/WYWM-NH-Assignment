@@ -54,9 +54,11 @@ p2{
     border-width: 2px;
     border-color: black;
     border-radius: 10px;
-    width:30%;
-    justify-content: space-evenly;
-    margin: 10px;
+    width:90%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 15px;
 }
 
