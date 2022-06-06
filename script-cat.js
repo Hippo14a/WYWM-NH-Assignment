@@ -12,7 +12,7 @@
 // Cat Start
 
 // variables
-const breedListUrl = "https://api.thecatapi.com/v1/breeds";
+const breedListUrl = "https://api.thecatapi.com/v1/breed";
 const breedList = document.getElementById("breed-list");
 const apiKeyHeader = {
     'x-api-key' : 'fe5fca4d-2973-40c0-9def-684748923f8b'

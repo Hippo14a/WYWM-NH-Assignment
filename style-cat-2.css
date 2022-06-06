@@ -2,10 +2,8 @@
     WYWM Web Development Assignment
     Student: Neil Hipkiss
     Styling for a web page to show user-selected images
-    
-    API TEST version
 
-    TEST
+    CAT
 
 */
 
@@ -91,11 +89,13 @@ p2{
     margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.api-name{
-    font-size:large;
-    color:black;
-    background-color: whitesmoke;
-    text-align: center;
+img{
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
 }

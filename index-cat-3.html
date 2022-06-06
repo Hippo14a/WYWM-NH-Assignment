@@ -1,0 +1,34 @@
+<!--
+    WYWM Web Development Assignment
+    Student: Neil Hipkiss
+    A web page to show selection options for a user to display three different categories of images
+
+    CAT
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NH Cat</title>
+        <link rel="stylesheet" href="style-cat-3.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Cat data from "thecatapi"</h1>
+        <div class="top-container">
+            <div class="top-box">
+                <div>
+                    <p>select a cat &#128008</p>
+                    <select onchange="showBreedImage(value)" class="middle-box" name="breed_selector" id="breed_selector">
+                        <option value="" selected disabled hidden>Choose &#128008 breed here</option></select>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <div class="bottom-box">
+                <img id="breed_image"></img>
+            </div>
+        </div>  
+    </body>
+</html>
+<script src="script-cat-3.js"></script>
