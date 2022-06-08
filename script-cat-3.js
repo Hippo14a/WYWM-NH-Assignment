@@ -30,8 +30,8 @@ fetch(urlCat, apiKeyHeaderCat)
         // ignore breed if there is no image to display
         if(!breed.image)continue
         // link the image url to breed name for the selection box
-        option.value = `${breed.image.url}` // single / double quotes do not work here e.g. '${breed.image.url}';
-        option.innerHTML = `${breed.name}` // single / double quotes do not work here e.g. '${breed.name}';
+        option.value = `${breed.image.url}`; // single / double quotes do not work here e.g. '${breed.image.url}';
+        option.innerHTML = `${breed.name}`; // single / double quotes do not work here e.g. '${breed.name}';
         document.getElementById("breed_selector").appendChild(option);
     }
 })

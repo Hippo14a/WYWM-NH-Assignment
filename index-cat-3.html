@@ -14,21 +14,30 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <h1>Cat data from "thecatapi"</h1>
-        <div class="top-container">
+        <h1>   &#128568 Meow!   &#128571 Purr!   &#128049 Enjoy the cats   &#128008</h1>
+        <div class="container">
             <div class="top-box">
-                <div>
-                    <p>select a cat &#128008</p>
-                    <select onchange="showBreedImage(value)" class="middle-box" name="breed_selector" id="breed_selector">
-                        <option value="" selected disabled hidden>Choose &#128008 breed here</option></select>
+                <select onchange="showBreedImage(value)" class="top-selector" name="breed_selector" id="breed_selector">
+                    <option value="" selected disabled hidden>Choose &#128008 breed here</option></select>       
+            </div>
+            <div class="bottom-box">
+                <div class="bottom-left" id="left">
+                    <img id="breed_image"></img>
+                </div>
+                <div class="bottom-right" id="right">
+                    <div class="bottom-right-top">
+                    </div>
+                    <div class="bottom-right-inner1">
+                    </div>
+                    <div class="bottom-right-inner2">
+                    </div>
+                    <div class="bottom-right-inner3">
+                    </div>
+                    <div class="bottom-right-bottom">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="bottom-container">
-            <div class="bottom-box">
-                <img id="breed_image"></img>
-            </div>
-        </div>  
     </body>
 </html>
 <script src="script-cat-3.js"></script>

@@ -1,0 +1,55 @@
+<!--
+    WYWM Web Development Assignment
+    Student: Neil Hipkiss
+    A web page to show infomration on cat breeds based on user-selections
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NH Cat</title>
+        <link rel="stylesheet" href="style-cat-4.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>   &#128568 Meow!   &#128571 Purr!   &#128049 Enjoy the cats   &#128008</h1>
+        <div class="container">
+            <div class="top-box">
+                <select onchange="showBreedImage(value)" class="top-selector" name="breed_selector" id="breed_selector">
+                    <option value="" selected disabled hidden>Choose &#128008 breed here</option></select>       
+            </div>
+            <div class="bottom-box">
+                <div class="bottom-left" id="left">
+                    <div class="bottom-left-top" id="box1">
+                        <p>Image</p>
+                    </div>
+                    <div class="bottom-left-bottom" id="box2">                   
+                        <img id="breed_image"></img>
+                    </div>
+                </div>
+                <div class="bottom-right" id="right">
+                    <div class="bottom-right-top" id="box1">
+                        <p>Origin</p>
+                        <div class="box2" id="breed_origin"></div>
+                    </div>
+                    <div class="bottom-right-inner1" id="box1">
+                        <p>Temperament</p>
+                        <div class="box2" id="breed_temperament"></div>
+                    </div>
+                    <div class="bottom-right-inner2" id="box1">
+                        <p>Weight (kg)</p>
+                        <div class="box2" id="breed_weight"></div>
+                    </div>
+                    <div class="bottom-right-inner3" id="box1">
+                        <p>Click here for more information</p>
+                        <button class="box3" id="breed_wikiurl"></button>
+                    </div>
+                    <div class="bottom-right-bottom" id="box1">
+                        <p>Description</p>
+                        <div class="box2" id="breed_description"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="script-cat-4.js"></script>
